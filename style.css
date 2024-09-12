@@ -1,0 +1,172 @@
+* {
+    font-family: "Montserrat", sans-serif;
+    margin: 0;
+    padding: 0;
+
+}
+
+.container1 {
+    display: inline-block;
+    margin-left: 70px;
+}
+
+.container2 {
+    display: inline-block;
+    margin-left: 40px;
+}
+
+header {
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 29.26px;
+    text-align: left;
+    color: rgba(152, 157, 156, 1);
+    margin-left: 45px;
+    margin-top: 15px;
+}
+
+a {
+    margin-right: 15px;
+    cursor: pointer;
+}
+
+a:hover {
+    opacity: .4;
+}
+
+a:active {
+    opacity: .8;
+}
+
+.button-logn {
+    width: 130px;
+    height: 41px;
+    background: rgba(102, 90, 225, 1);
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 29.26px;
+    color: rgba(255, 255, 255, 1);
+    border-radius: 40px;
+    border: none;
+}
+
+
+img {
+    width: 496px;
+    height: 461px;
+    margin-top: 52px;
+
+}
+
+h1 {
+
+    font-size: 100px;
+    font-weight: 900;
+    line-height: 121.9px;
+    width: 513px;
+    height: 122px;
+    color: rgba(81, 81, 81, 1);
+
+}
+
+h2 {
+    width: 448px;
+    height: 71px;
+    font-size: 58px;
+    font-weight: 500;
+    line-height: 70.7px;
+    font-family: Montserrat;
+    color: rgba(81, 81, 81, 1);
+
+}
+
+p {
+    width: 515px;
+    height: 87px;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 29.26px;
+    color: rgba(132, 132, 132, 1);
+    margin: 15px auto;
+}
+
+.button-principal {
+    width: 239px;
+    height: 64px;
+    background: rgba(173, 255, 0, 1);
+    font-size: 28px;
+    font-weight: 700;
+    color: rgba(0, 0, 0, 1);
+    border: none;
+    border-radius: 40px;
+    cursor: pointer;
+}
+
+@media screen and (max-width:800px) {
+    .container1 {
+        display: block;
+        width: 100vw;
+        height: 50vh;
+        text-align: center;
+        margin: auto;
+    }
+
+    .container2 {
+        display: block;
+        width: 100vw;
+        height: 50vh;
+        margin: 20px auto;
+    }
+
+    header {
+        display: none;
+    }
+
+    p {
+        display: none;
+    }
+
+    img {
+        width: 331px;
+        height: 308px;
+       
+
+    }
+
+    h1 {
+        width: 263px;
+        height: 52px;
+        font-size: 50px;
+        font-weight: 900;
+        line-height: 60.95px;
+        text-align: center;
+        margin: 10px auto;
+
+    }
+
+    h2 {
+        width: 232px;
+        height: 37px;
+        font-size: 30px;
+        font-weight: 500;
+        line-height: 36.57px;
+        text-align: center;
+        margin: 10px auto;
+    }
+
+    .button-principal {
+        margin: 10px auto;
+        width: 239px;
+        height: 64px;
+        display: block;
+
+    }
+}
+@media screen and (max-width:440px) {
+   img {
+
+        width: 331px;
+        height: 308px;
+        margin-top: 134px;
+   }
+}
